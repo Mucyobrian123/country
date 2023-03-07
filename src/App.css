@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+  text-align: center;
+  /* background-color: rgb(19, 17, 17);
+  color: azure;
+  flex-wrap: wrap;
+  width: 50%;
+  position: relative;
+  border-radius: 20px;
+  left: 25%; */
+   
+}
+
+/* body {
+  background-color: black;
+}
+
+
+input{
+  padding: 4px;
+  margin-right: 8px;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+center{
+  color: red;
+
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+  color: yellow;
+}
+ul{
+  list-style: none;
+  
+
+}
+li{
+  margin: 12px 0;;
+
+}
+.delete-Item{
+font-size: 15px;
+margin-left: 8px;
+background-color: brown;
+}
+.appl{
+  background-color:rgb(78, 150, 243);
+  margin: 12px 0;;
+
+}
+.welcome{
+  color: white;
+} */
+.my-dropdown {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.my-dropdown-item {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #555;
+  &:hover {
+    background-color: #eee;
+  }
+  &:active {
+    background-color: #ddd;
+  }
+}
